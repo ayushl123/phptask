@@ -1,0 +1,11 @@
+Use Postman to Test Requests
+
+GET Tasks
+Method: GET
+URL: http://localhost/api.php
+Headers: API_KEY: 1234567890abcdef
+
+Create Task
+Method: POST
+URL: http://localhost/api.php
+Headers: API_KEY: 1234567890abcdef
