@@ -1,3 +1,5 @@
+Start Apache and MySQL in XAMPP.
+
 Use Postman to Test Requests
 
 GET Tasks
@@ -9,3 +11,32 @@ Create Task
 Method: POST
 URL: http://localhost/api.php
 Headers: API_KEY: 1234567890abcdef
+Body (JSON):
+
+json :
+{
+  "title": "New Task",
+  "description": "This is a new task."
+}
+Update Task
+Method: PUT
+URL: http://localhost/api.php
+Headers: API_KEY: 1234567890abcdef
+Body (JSON):
+
+json:
+{
+  "id": 1,
+  "title": "Updated Task",
+  "description": "This task has been updated."
+}
+
+Delete Task
+Method: DELETE
+URL: http://localhost/api.php
+Headers: API_KEY: 1234567890abcdef
+Body (JSON):
+
+json{
+  "id": 1
+}
